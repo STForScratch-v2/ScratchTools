@@ -29,7 +29,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, info) {
                     }
                 });
             })
-            var version = '2.5.0'
+            var version = '2.6.0'
             await chrome.storage.local.get(["version"], async function(obj) {
                 if (obj['version'] !== version) {
                     var tab = await chrome.tabs.get(tabId)
