@@ -3,7 +3,7 @@
   "name": "ScratchTools",
   "short_name": "ScratchTools",
   "description": "Great tools to make Scratching easier!",
-  "version": "2.5.3",
+  "version": "2.6.0",
   "background": {
     "scripts": ["/extras/background.js"],
     "persistent": false
